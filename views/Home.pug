@@ -1,0 +1,41 @@
+extends base.pug
+
+block scripts
+    script("../static/index.js")
+
+block style
+    style
+        include ../static/style.css
+block content   
+    section#introsection
+        div Welcome to Dance Academy
+        div.small Eat sleep dance repeat
+    section#missionsection
+        h2 Our Mission & Idiology
+        div.card
+            h3 Expert Guidance
+            div.card-box
+                div.card-img
+                    img(src="../static/img/1.png")
+                div.card-content
+                    | This is the starting point of the endless journey.
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="../static/img/2.png")
+                div.card-content
+                    | Choose your own dance styles & we'll train you.
+        //- div.card
+        //-     h3 Compete nation-wide
+        //-     div.card-box
+        //-         div.card-img
+        //-             img(src="../static/img/1.png")
+        //-         div.card-content
+        //-             | This is the starting point of the endless journey.
+    section#sponsorsection
+        h2 Meet Our Sponsors
+        div.sponsor
+            img(src="../static/img/sponsor1.png", alt="sponsor image" Class="spImage")
+            img(src="../static/img/sponsor3.png", alt="sponsor image" Class="spImage")
+            img(src="../static/img/sponsor2.jpeg", alt="sponsor image" Class="spImage")
