@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.container h1{
+    text-align: center;
+    margin: 12px 0px;
+    font-family: Pacifico,cursive;
+}
+.myForm{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 100%;
+}
+.myinput{
+    width: 40%;
+    padding: 7px;
+    margin: 7px 0px;
+    text-align: center;
+    border: 2px solid #8557D0;
+    border-radius: 5px;
+    outline: none;
+    font-family: Pacifico,cursive;
+}
+.btn{
+    font-family: inherit;
+    margin: 13px 0px;
+    padding: 8px;
+    border: 2px solid #8557D0;
+    border-radius: 6px;
+    width: 10%;
+    cursor: pointer;
+    outline: none;
+}
+.container{
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
